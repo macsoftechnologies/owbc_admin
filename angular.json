@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "owbc"
+    }
+  },
+  "defaultProject": "owbc",
+  "cli": {
+    "analytics": false
+  }
 }
