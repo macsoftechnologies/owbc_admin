@@ -50,7 +50,7 @@ export class UserDetailsComponent implements OnInit {
   }
 
   UserView(data) {
-    $("#ViewProductModal").modal("show");
+    $("#ViewModal").modal("show");
 
     this.UserDetailsView = data;
   }
@@ -98,7 +98,7 @@ export class UserDetailsComponent implements OnInit {
 
 //edit user
   userEdit(data) {
-    $("#EditVendorModal").modal("show");
+    $("#EditModal").modal("show");
     console.log("data", data);
     this.EditForm.controls["Name"].setValue(data.name);
     this.EditForm.controls["number"].setValue(data.phoneNumber);
